@@ -13,4 +13,5 @@
     <string name="skip">Пропустить</string>
     <string name="next">Далее</string>
     <string name="go">Поехали</string>
+    <string name="login_placeholder">Экран входа\n(будет в следующих работах)</string>
 </resources>
