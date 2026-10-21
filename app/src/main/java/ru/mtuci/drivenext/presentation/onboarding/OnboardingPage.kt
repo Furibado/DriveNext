@@ -10,9 +10,8 @@ data class OnboardingPage(
     @StringRes val descriptionRes: Int
 )
 
-// Картинки пока временные, настоящие иллюстрации выгрузим из Figma
 val onboardingPages = listOf(
-    OnboardingPage(R.drawable.ic_launcher_foreground, R.string.onboarding_title_1, R.string.onboarding_desc_1),
-    OnboardingPage(R.drawable.ic_launcher_foreground, R.string.onboarding_title_2, R.string.onboarding_desc_2),
-    OnboardingPage(R.drawable.ic_launcher_foreground, R.string.onboarding_title_3, R.string.onboarding_desc_3)
+    OnboardingPage(R.drawable.onboarding_1, R.string.onboarding_title_1, R.string.onboarding_desc_1),
+    OnboardingPage(R.drawable.onboarding_2, R.string.onboarding_title_2, R.string.onboarding_desc_2),
+    OnboardingPage(R.drawable.onboarding_3, R.string.onboarding_title_3, R.string.onboarding_desc_3)
 )

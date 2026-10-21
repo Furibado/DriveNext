@@ -15,7 +15,7 @@ import ru.mtuci.drivenext.presentation.splash.SplashFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen() // обязательно ДО super.onCreate и setContentView
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
