@@ -4,4 +4,5 @@
     <color name="text_secondary">#8A8A99</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dot_inactive">#E4E4EC</color>
 </resources>

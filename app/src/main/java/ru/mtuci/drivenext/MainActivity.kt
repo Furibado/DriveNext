@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import ru.mtuci.drivenext.domain.StartDestination
 import ru.mtuci.drivenext.presentation.noconnection.NoConnectionFragment
+import ru.mtuci.drivenext.presentation.onboarding.OnboardingFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     fun navigateTo(destination: StartDestination) {
         when (destination) {
             StartDestination.NO_CONNECTION -> show(NoConnectionFragment())
-            StartDestination.ONBOARDING,
+            StartDestination.ONBOARDING -> show(OnboardingFragment())
             StartDestination.LOGIN ->
                 Toast.makeText(this, destination.name, Toast.LENGTH_LONG).show() // временно
         }
