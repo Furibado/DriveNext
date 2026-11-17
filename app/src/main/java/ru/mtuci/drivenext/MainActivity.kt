@@ -124,6 +124,24 @@ class MainActivity : AppCompatActivity() {
         show(HomeFragment())
     }
 
+    fun openSettings() {
+        if (supportFragmentManager.findFragmentById(R.id.fragment_container) is ru.mtuci.drivenext.presentation.profile.SettingsFragment) return
+        val existing = (0 until supportFragmentManager.backStackEntryCount).any {
+            supportFragmentManager.getBackStackEntryAt(it).name == "settings"
+        }
+        if (existing) supportFragmentManager.popBackStackImmediate("settings", 0)
+        else supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, ru.mtuci.drivenext.presentation.profile.SettingsFragment())
+            .addToBackStack("settings").commit()
+    }
+
+    fun openLoginAfterLogout() {
+        pendingSessionResult = null
+        session.result.value = null
+        supportFragmentManager.popBackStackImmediate(null, FragmentManager.POP_BACK_STACK_INCLUSIVE)
+        show(LoginFragment())
+    }
+
     fun openLogin() {
         supportFragmentManager.beginTransaction()
             .setReorderingAllowed(true)

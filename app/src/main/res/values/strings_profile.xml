@@ -1,0 +1,27 @@
+<resources>
+    <string name="settings_title">Настройки</string>
+    <string name="profile_title">Профиль</string>
+    <string name="settings_bookings">Мои бронирования</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_connect_car">Подключить свой автомобиль</string>
+    <string name="settings_help">Помощь</string>
+    <string name="settings_invite">Пригласи друга</string>
+    <string name="profile_email">Электронная почта</string>
+    <string name="profile_password">Пароль</string>
+    <string name="profile_change_password">Поменять пароль</string>
+    <string name="profile_gender">Пол</string>
+    <string name="profile_google">Google</string>
+    <string name="profile_male">Мужской</string>
+    <string name="profile_female">Женский</string>
+    <string name="profile_unspecified">Не указан</string>
+    <string name="profile_google_not_connected">Не подключён</string>
+    <string name="profile_logout">Выйти из профиля</string>
+    <string name="profile_joined">Присоединился в %1$s</string>
+    <string name="profile_change_avatar">Изменить фотографию профиля</string>
+    <string name="profile_load_error">Не удалось загрузить профиль. Попробуйте снова.</string>
+    <string name="profile_avatar_error">Не удалось загрузить фотографию профиля.</string>
+    <string name="profile_upload_error">Не удалось сохранить фотографию. Попробуйте снова.</string>
+    <string name="profile_upload_success">Фотография сохранена</string>
+    <string name="profile_add_photo_symbol" translatable="false">+</string>
+</resources>

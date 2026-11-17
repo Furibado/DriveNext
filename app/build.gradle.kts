@@ -46,6 +46,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.viewpager2)
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)

@@ -1,0 +1,20 @@
+<resources>
+    <string name="catalog_search_hint">Введите марку или модель автомобиля</string>
+    <string name="catalog_heading">Давайте найдём автомобиль</string>
+    <string name="catalog_results">Результаты поиска</string>
+    <string name="catalog_loading">Ищем подходящие автомобили</string>
+    <string name="catalog_load_error">Не удалось загрузить данные. Попробуйте снова.</string>
+    <string name="catalog_search_error">Не удалось выполнить поиск. Попробуйте снова.</string>
+    <string name="catalog_retry">Попробовать снова</string>
+    <string name="catalog_empty">Автомобили не найдены</string>
+    <string name="catalog_price">%1$s ₽ <font color="#8A8A99">в день</font></string>
+    <string name="catalog_book">Забронировать</string>
+    <string name="catalog_details">Детали</string>
+    <string name="catalog_rental">Оформление аренды</string>
+    <string name="catalog_back">Назад</string>
+    <string name="catalog_home">Главная</string>
+    <string name="catalog_favorites">Избранное</string>
+    <string name="catalog_settings">Настройки</string>
+    <string name="feature_not_ready">Это пока не сделано</string>
+    <string name="catalog_photo">Фото %1$s %2$s. Нажмите, чтобы повторить загрузку.</string>
+</resources>

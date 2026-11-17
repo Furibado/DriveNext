@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="@string/catalog_home" android:icon="@drawable/catalog_home_selector"/>
+    <item android:id="@+id/nav_favorites" android:title="@string/catalog_favorites" android:icon="@drawable/catalog_ic_bookmark"/>
+    <item android:id="@+id/nav_settings" android:title="@string/catalog_settings" android:icon="@drawable/catalog_ic_settings"/>
+</menu>
