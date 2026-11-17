@@ -7,6 +7,7 @@ import ru.mtuci.drivenext.domain.CompleteOnboardingUseCase
 import ru.mtuci.drivenext.domain.GetStartDestinationUseCase
 
 class AppContainer(context: Context) {
+    val authRepository: ru.mtuci.drivenext.domain.AuthRepository = ru.mtuci.drivenext.data.RegistrationRepository(context)
     private val connectionRepository = ConnectionRepositoryImpl(context)
     private val appStateRepository = AppStateRepositoryImpl(context)
 

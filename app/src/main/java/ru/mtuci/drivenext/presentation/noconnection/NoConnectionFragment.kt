@@ -19,7 +19,11 @@ class NoConnectionFragment : Fragment(R.layout.fragment_no_connection) {
         binding.retryButton.setOnClickListener { viewModel.retry() }
 
         viewModel.destination.observe(viewLifecycleOwner) { destination ->
-            (requireActivity() as MainActivity).navigateTo(destination)
+            if (arguments?.getBoolean("return_to_form") == true) {
+                parentFragmentManager.popBackStack()
+            } else {
+                (requireActivity() as MainActivity).navigateTo(destination)
+            }
         }
     }
 }

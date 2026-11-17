@@ -1,0 +1,12 @@
+<resources>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="sign_in_title">Войдите в аккаунт</string>
+    <string name="sign_in_subtitle">Пожалуйста, введите свои данные</string>
+    <string name="sign_in_google">Войти через Google</string>
+    <string name="auth_email">Электронная почта</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_invalid_email">Введите корректный адрес электронной почты</string>
+    <string name="home_empty">Здесь пока ничего нет</string>
+    <string name="registration_success">Вы успешно зарегистрировались. Выбирайте подходящий автомобиль и отправляйтесь в следующую поездку!</string>
+</resources>
